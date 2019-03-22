@@ -1,0 +1,3 @@
+/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir
