@@ -1,4 +1,4 @@
-# Install script for directory: /home/ab_shams/CLionProjects/Compiler Generator
+# Install script for directory: /home/ahmed/CLionProjects/Compiler-Generator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

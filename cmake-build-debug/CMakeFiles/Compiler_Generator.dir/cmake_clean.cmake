@@ -7,6 +7,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Compiler_Generator.dir/DFA.cpp.o"
   "CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o"
   "CMakeFiles/Compiler_Generator.dir/NFA.cpp.o"
+  "CMakeFiles/Compiler_Generator.dir/State.cpp.o"
+  "CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o"
+  "CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o"
   "Compiler_Generator.pdb"
   "Compiler_Generator"
 )

@@ -3,4 +3,4 @@ project(Compiler_Generator)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Compiler_Generator main.cpp Parser.cpp Parser.h Rule.cpp Rule.h LexicalAnalyzer.cpp LexicalAnalyzer.h Token.cpp Token.h DFA.cpp DFA.h SrcLine.cpp SrcLine.h NFA.cpp NFA.h)
+add_executable(Compiler_Generator main.cpp Parser.cpp Parser.h Rule.cpp Rule.h LexicalAnalyzer.cpp LexicalAnalyzer.h Token.cpp Token.h DFA.cpp DFA.h SrcLine.cpp SrcLine.h NFA.cpp NFA.h State.cpp State.h NFACreator.cpp NFACreator.h BasicNFA.cpp BasicNFA.h)

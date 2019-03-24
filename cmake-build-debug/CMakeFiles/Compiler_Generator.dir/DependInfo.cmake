@@ -4,14 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ab_shams/CLionProjects/Compiler Generator/DFA.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/DFA.cpp.o"
-  "/home/ab_shams/CLionProjects/Compiler Generator/LexicalAnalyzer.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o"
-  "/home/ab_shams/CLionProjects/Compiler Generator/NFA.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/NFA.cpp.o"
-  "/home/ab_shams/CLionProjects/Compiler Generator/Parser.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/Parser.cpp.o"
-  "/home/ab_shams/CLionProjects/Compiler Generator/Rule.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/Rule.cpp.o"
-  "/home/ab_shams/CLionProjects/Compiler Generator/SrcLine.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o"
-  "/home/ab_shams/CLionProjects/Compiler Generator/Token.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/Token.cpp.o"
-  "/home/ab_shams/CLionProjects/Compiler Generator/main.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/main.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/BasicNFA.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/DFA.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/DFA.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/LexicalAnalyzer.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/NFA.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/NFA.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/NFACreator.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/Parser.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/Parser.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/Rule.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/Rule.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/SrcLine.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/State.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/State.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/Token.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/Token.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/main.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
