@@ -5,9 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ahmed/CLionProjects/Compiler-Generator/BasicNFA.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/CompleteNFA.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o"
   "/home/ahmed/CLionProjects/Compiler-Generator/DFA.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/DFA.cpp.o"
+  "/home/ahmed/CLionProjects/Compiler-Generator/ID_Generator.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o"
   "/home/ahmed/CLionProjects/Compiler-Generator/LexicalAnalyzer.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o"
-  "/home/ahmed/CLionProjects/Compiler-Generator/NFA.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/NFA.cpp.o"
   "/home/ahmed/CLionProjects/Compiler-Generator/NFACreator.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o"
   "/home/ahmed/CLionProjects/Compiler-Generator/Parser.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/Parser.cpp.o"
   "/home/ahmed/CLionProjects/Compiler-Generator/Rule.cpp" "/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/Rule.cpp.o"

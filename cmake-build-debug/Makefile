@@ -150,6 +150,33 @@ BasicNFA.cpp.s:
 	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.s
 .PHONY : BasicNFA.cpp.s
 
+CompleteNFA.o: CompleteNFA.cpp.o
+
+.PHONY : CompleteNFA.o
+
+# target to build an object file
+CompleteNFA.cpp.o:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o
+.PHONY : CompleteNFA.cpp.o
+
+CompleteNFA.i: CompleteNFA.cpp.i
+
+.PHONY : CompleteNFA.i
+
+# target to preprocess a source file
+CompleteNFA.cpp.i:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.i
+.PHONY : CompleteNFA.cpp.i
+
+CompleteNFA.s: CompleteNFA.cpp.s
+
+.PHONY : CompleteNFA.s
+
+# target to generate assembly for a file
+CompleteNFA.cpp.s:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.s
+.PHONY : CompleteNFA.cpp.s
+
 DFA.o: DFA.cpp.o
 
 .PHONY : DFA.o
@@ -177,6 +204,33 @@ DFA.cpp.s:
 	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/DFA.cpp.s
 .PHONY : DFA.cpp.s
 
+ID_Generator.o: ID_Generator.cpp.o
+
+.PHONY : ID_Generator.o
+
+# target to build an object file
+ID_Generator.cpp.o:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o
+.PHONY : ID_Generator.cpp.o
+
+ID_Generator.i: ID_Generator.cpp.i
+
+.PHONY : ID_Generator.i
+
+# target to preprocess a source file
+ID_Generator.cpp.i:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.i
+.PHONY : ID_Generator.cpp.i
+
+ID_Generator.s: ID_Generator.cpp.s
+
+.PHONY : ID_Generator.s
+
+# target to generate assembly for a file
+ID_Generator.cpp.s:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.s
+.PHONY : ID_Generator.cpp.s
+
 LexicalAnalyzer.o: LexicalAnalyzer.cpp.o
 
 .PHONY : LexicalAnalyzer.o
@@ -203,33 +257,6 @@ LexicalAnalyzer.s: LexicalAnalyzer.cpp.s
 LexicalAnalyzer.cpp.s:
 	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.s
 .PHONY : LexicalAnalyzer.cpp.s
-
-NFA.o: NFA.cpp.o
-
-.PHONY : NFA.o
-
-# target to build an object file
-NFA.cpp.o:
-	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/NFA.cpp.o
-.PHONY : NFA.cpp.o
-
-NFA.i: NFA.cpp.i
-
-.PHONY : NFA.i
-
-# target to preprocess a source file
-NFA.cpp.i:
-	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/NFA.cpp.i
-.PHONY : NFA.cpp.i
-
-NFA.s: NFA.cpp.s
-
-.PHONY : NFA.s
-
-# target to generate assembly for a file
-NFA.cpp.s:
-	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/NFA.cpp.s
-.PHONY : NFA.cpp.s
 
 NFACreator.o: NFACreator.cpp.o
 
@@ -432,15 +459,18 @@ help:
 	@echo "... BasicNFA.o"
 	@echo "... BasicNFA.i"
 	@echo "... BasicNFA.s"
+	@echo "... CompleteNFA.o"
+	@echo "... CompleteNFA.i"
+	@echo "... CompleteNFA.s"
 	@echo "... DFA.o"
 	@echo "... DFA.i"
 	@echo "... DFA.s"
+	@echo "... ID_Generator.o"
+	@echo "... ID_Generator.i"
+	@echo "... ID_Generator.s"
 	@echo "... LexicalAnalyzer.o"
 	@echo "... LexicalAnalyzer.i"
 	@echo "... LexicalAnalyzer.s"
-	@echo "... NFA.o"
-	@echo "... NFA.i"
-	@echo "... NFA.s"
 	@echo "... NFACreator.o"
 	@echo "... NFACreator.i"
 	@echo "... NFACreator.s"

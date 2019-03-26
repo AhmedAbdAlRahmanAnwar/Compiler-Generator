@@ -90,22 +90,28 @@
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/BasicNFA.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/CompleteNFA.cpp">
+			<Option target="Compiler_Generator"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/CompleteNFA.h">
+			<Option target="Compiler_Generator"/>
+		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFA.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFA.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/ID_Generator.cpp">
+			<Option target="Compiler_Generator"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/ID_Generator.h">
+			<Option target="Compiler_Generator"/>
+		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/LexicalAnalyzer.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/LexicalAnalyzer.h">
-			<Option target="Compiler_Generator"/>
-		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/NFA.cpp">
-			<Option target="Compiler_Generator"/>
-		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/NFA.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/NFACreator.cpp">

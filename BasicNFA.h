@@ -6,6 +6,7 @@
 #define COMPILER_GENERATOR_BASICNFA_H
 
 #include "State.h"
+#include "ID_Generator.h"
 
 class BasicNFA {
 

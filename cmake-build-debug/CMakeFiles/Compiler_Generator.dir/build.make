@@ -148,18 +148,18 @@ CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/SrcLine.cpp -o CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.s
 
-CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
-CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: ../NFA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Compiler_Generator.dir/NFA.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler_Generator.dir/NFA.cpp.o -c /home/ahmed/CLionProjects/Compiler-Generator/NFA.cpp
+CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
+CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: ../CompleteNFA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o -c /home/ahmed/CLionProjects/Compiler-Generator/CompleteNFA.cpp
 
-CMakeFiles/Compiler_Generator.dir/NFA.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler_Generator.dir/NFA.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/Compiler-Generator/NFA.cpp > CMakeFiles/Compiler_Generator.dir/NFA.cpp.i
+CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/Compiler-Generator/CompleteNFA.cpp > CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.i
 
-CMakeFiles/Compiler_Generator.dir/NFA.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/NFA.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/NFA.cpp -o CMakeFiles/Compiler_Generator.dir/NFA.cpp.s
+CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/CompleteNFA.cpp -o CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.s
 
 CMakeFiles/Compiler_Generator.dir/State.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
 CMakeFiles/Compiler_Generator.dir/State.cpp.o: ../State.cpp
@@ -200,6 +200,19 @@ CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/BasicNFA.cpp -o CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.s
 
+CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
+CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o: ../ID_Generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o -c /home/ahmed/CLionProjects/Compiler-Generator/ID_Generator.cpp
+
+CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/Compiler-Generator/ID_Generator.cpp > CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.i
+
+CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/ID_Generator.cpp -o CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.s
+
 # Object files for target Compiler_Generator
 Compiler_Generator_OBJECTS = \
 "CMakeFiles/Compiler_Generator.dir/main.cpp.o" \
@@ -209,10 +222,11 @@ Compiler_Generator_OBJECTS = \
 "CMakeFiles/Compiler_Generator.dir/Token.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/DFA.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o" \
-"CMakeFiles/Compiler_Generator.dir/NFA.cpp.o" \
+"CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/State.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o" \
-"CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o"
+"CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o" \
+"CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o"
 
 # External object files for target Compiler_Generator
 Compiler_Generator_EXTERNAL_OBJECTS =
@@ -224,13 +238,14 @@ Compiler_Generator: CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/Token.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/DFA.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o
-Compiler_Generator: CMakeFiles/Compiler_Generator.dir/NFA.cpp.o
+Compiler_Generator: CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/State.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o
+Compiler_Generator: CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/build.make
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Compiler_Generator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Compiler_Generator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Compiler_Generator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

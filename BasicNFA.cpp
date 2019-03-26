@@ -6,9 +6,9 @@
 
 BasicNFA::BasicNFA(char basic_char){
     //Give number to the start state
-    start = new State(NumberGenerator::getNextUniqueInt());
+    start = new State(ID_Generator::NextID());
     //Give number to the end state which is next
-    end = new State(NumberGenerator::getNextUniqueInt());
+    end = new State(ID_Generator::NextID());
     start->add_transition(basic_char, end);
 }
 

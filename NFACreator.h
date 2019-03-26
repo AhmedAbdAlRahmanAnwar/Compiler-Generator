@@ -7,16 +7,21 @@
 
 
 #include "BasicNFA.h"
-#include <vector>
 #include "Rule.h"
+#include "State.h"
+#include <vector>
 
 
 class NFACreator {
 public:
     NFACreator();
-    virtual ~NFACreator()();
+    virtual ~NFACreator();
 
-    static BasicNFA* build_BasicNFA(Rule rule) ;
+    static BasicNFA* build_BasicNFA(Rule rule);
+    static BasicNFA* PositiveClosureOperator(BasicNFA* BN);
+    static BasicNFA* OROperator(BasicNFA* BN1, BasicNFA* BN2);
+    static BasicNFA* KleeneClosureOperator(BasicNFA* BN1);
+    static BasicNFA* ANDOperator(BasicNFA* BN1, BasicNFA* BN2);
 };
 
 
