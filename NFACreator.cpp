@@ -20,16 +20,26 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
     // convert rule to postfix.
     vector<char> elements = rule.toPostfix();
     vector<BasicNFA*> stack;
-
+    int counter = 0;
+    bool isBackSlashed = false;
     for (char element : elements) {
 
+        if(isBackSlashed){
+            char ch = element;
+            stack.push_back(new BasicNFA(ch));
+            isBackSlashed = false;
+        } else if(element == '\\'){
+            isBackSlashed = true;
+        }
+
         //check if the element is Alphabet
-        if((element>='a'&& element<='z') || (element>='A' && element<='Z'))
+        else if((element>='a'&& element<='z') || (element>='A' && element<='Z'))
         {
             char ch = element;
             // Epsilon
             if(ch == '@')ch = '\0';
             stack.push_back(new BasicNFA(ch));
+            counter++;
             continue;
         }
 
@@ -50,10 +60,28 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
             stack.push_back(OROperator(BN2,BN1));
         }
 
+        else if(element == '-')
+        {
+            BasicNFA* BN1 = stack.back();
+            stack.pop_back();
+            BasicNFA* BN2 = stack.back();
+            stack.pop_back();
+
+            char c1 = elements.at(counter-2) ,c2 = elements.at(counter-1);
+
+            BasicNFA* result = BN2;
+            BasicNFA* temp;
+            for (char c = c1+1; c < c2; ++c) {
+                temp = new BasicNFA(c);
+                result = OROperator(result,temp);
+            }
+            stack.push_back(OROperator(result,BN1));
+        }
+
         else if(element.getContent() == '*')
         {
             BasicNFA* BN = stack.back();
-            stack.pop_back() ;
+            stack.pop_back();
             stack.push_back(KleeneClosureOperator(BN)) ;
         }
 
@@ -61,11 +89,12 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
         else if(element == '$')
         {
             BasicNFA* BN1 = stack.back();
-            stack.pop_back() ;
+            stack.pop_back();
             BasicNFA* BN2 = stack.back();
-            stack.pop_back() ;
+            stack.pop_back();
             stack.push_back(ANDOperator(BN2,BN1));
         }
+        counter++;
     }
 
     stack[0]->get_end()->set_acceptance(true);

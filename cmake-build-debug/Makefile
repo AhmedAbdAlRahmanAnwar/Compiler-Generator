@@ -204,6 +204,60 @@ DFA.cpp.s:
 	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/DFA.cpp.s
 .PHONY : DFA.cpp.s
 
+DFA_tableCreator.o: DFA_tableCreator.cpp.o
+
+.PHONY : DFA_tableCreator.o
+
+# target to build an object file
+DFA_tableCreator.cpp.o:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.o
+.PHONY : DFA_tableCreator.cpp.o
+
+DFA_tableCreator.i: DFA_tableCreator.cpp.i
+
+.PHONY : DFA_tableCreator.i
+
+# target to preprocess a source file
+DFA_tableCreator.cpp.i:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.i
+.PHONY : DFA_tableCreator.cpp.i
+
+DFA_tableCreator.s: DFA_tableCreator.cpp.s
+
+.PHONY : DFA_tableCreator.s
+
+# target to generate assembly for a file
+DFA_tableCreator.cpp.s:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.s
+.PHONY : DFA_tableCreator.cpp.s
+
+DFAstate.o: DFAstate.cpp.o
+
+.PHONY : DFAstate.o
+
+# target to build an object file
+DFAstate.cpp.o:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.o
+.PHONY : DFAstate.cpp.o
+
+DFAstate.i: DFAstate.cpp.i
+
+.PHONY : DFAstate.i
+
+# target to preprocess a source file
+DFAstate.cpp.i:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.i
+.PHONY : DFAstate.cpp.i
+
+DFAstate.s: DFAstate.cpp.s
+
+.PHONY : DFAstate.s
+
+# target to generate assembly for a file
+DFAstate.cpp.s:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.s
+.PHONY : DFAstate.cpp.s
+
 ID_Generator.o: ID_Generator.cpp.o
 
 .PHONY : ID_Generator.o
@@ -312,6 +366,33 @@ Parser.cpp.s:
 	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/Parser.cpp.s
 .PHONY : Parser.cpp.s
 
+Row.o: Row.cpp.o
+
+.PHONY : Row.o
+
+# target to build an object file
+Row.cpp.o:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/Row.cpp.o
+.PHONY : Row.cpp.o
+
+Row.i: Row.cpp.i
+
+.PHONY : Row.i
+
+# target to preprocess a source file
+Row.cpp.i:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/Row.cpp.i
+.PHONY : Row.cpp.i
+
+Row.s: Row.cpp.s
+
+.PHONY : Row.s
+
+# target to generate assembly for a file
+Row.cpp.s:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/Row.cpp.s
+.PHONY : Row.cpp.s
+
 Rule.o: Rule.cpp.o
 
 .PHONY : Rule.o
@@ -393,6 +474,33 @@ State.cpp.s:
 	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/State.cpp.s
 .PHONY : State.cpp.s
 
+SubsetConstruction.o: SubsetConstruction.cpp.o
+
+.PHONY : SubsetConstruction.o
+
+# target to build an object file
+SubsetConstruction.cpp.o:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.o
+.PHONY : SubsetConstruction.cpp.o
+
+SubsetConstruction.i: SubsetConstruction.cpp.i
+
+.PHONY : SubsetConstruction.i
+
+# target to preprocess a source file
+SubsetConstruction.cpp.i:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.i
+.PHONY : SubsetConstruction.cpp.i
+
+SubsetConstruction.s: SubsetConstruction.cpp.s
+
+.PHONY : SubsetConstruction.s
+
+# target to generate assembly for a file
+SubsetConstruction.cpp.s:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.s
+.PHONY : SubsetConstruction.cpp.s
+
 Token.o: Token.cpp.o
 
 .PHONY : Token.o
@@ -419,6 +527,33 @@ Token.s: Token.cpp.s
 Token.cpp.s:
 	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/Token.cpp.s
 .PHONY : Token.cpp.s
+
+TransitionTable.o: TransitionTable.cpp.o
+
+.PHONY : TransitionTable.o
+
+# target to build an object file
+TransitionTable.cpp.o:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o
+.PHONY : TransitionTable.cpp.o
+
+TransitionTable.i: TransitionTable.cpp.i
+
+.PHONY : TransitionTable.i
+
+# target to preprocess a source file
+TransitionTable.cpp.i:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.i
+.PHONY : TransitionTable.cpp.i
+
+TransitionTable.s: TransitionTable.cpp.s
+
+.PHONY : TransitionTable.s
+
+# target to generate assembly for a file
+TransitionTable.cpp.s:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.s
+.PHONY : TransitionTable.cpp.s
 
 main.o: main.cpp.o
 
@@ -465,6 +600,12 @@ help:
 	@echo "... DFA.o"
 	@echo "... DFA.i"
 	@echo "... DFA.s"
+	@echo "... DFA_tableCreator.o"
+	@echo "... DFA_tableCreator.i"
+	@echo "... DFA_tableCreator.s"
+	@echo "... DFAstate.o"
+	@echo "... DFAstate.i"
+	@echo "... DFAstate.s"
 	@echo "... ID_Generator.o"
 	@echo "... ID_Generator.i"
 	@echo "... ID_Generator.s"
@@ -477,6 +618,9 @@ help:
 	@echo "... Parser.o"
 	@echo "... Parser.i"
 	@echo "... Parser.s"
+	@echo "... Row.o"
+	@echo "... Row.i"
+	@echo "... Row.s"
 	@echo "... Rule.o"
 	@echo "... Rule.i"
 	@echo "... Rule.s"
@@ -486,9 +630,15 @@ help:
 	@echo "... State.o"
 	@echo "... State.i"
 	@echo "... State.s"
+	@echo "... SubsetConstruction.o"
+	@echo "... SubsetConstruction.i"
+	@echo "... SubsetConstruction.s"
 	@echo "... Token.o"
 	@echo "... Token.i"
 	@echo "... Token.s"
+	@echo "... TransitionTable.o"
+	@echo "... TransitionTable.i"
+	@echo "... TransitionTable.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

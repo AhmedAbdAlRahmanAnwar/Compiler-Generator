@@ -102,6 +102,18 @@
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFA.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFA_tableCreator.cpp">
+			<Option target="Compiler_Generator"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFA_tableCreator.h">
+			<Option target="Compiler_Generator"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFAstate.cpp">
+			<Option target="Compiler_Generator"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFAstate.h">
+			<Option target="Compiler_Generator"/>
+		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/ID_Generator.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
@@ -126,6 +138,12 @@
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Parser.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Row.cpp">
+			<Option target="Compiler_Generator"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Row.h">
+			<Option target="Compiler_Generator"/>
+		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Rule.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
@@ -144,10 +162,22 @@
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/State.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/SubsetConstruction.cpp">
+			<Option target="Compiler_Generator"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/SubsetConstruction.h">
+			<Option target="Compiler_Generator"/>
+		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Token.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Token.h">
+			<Option target="Compiler_Generator"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/TransitionTable.cpp">
+			<Option target="Compiler_Generator"/>
+		</Unit>
+		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/TransitionTable.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
 		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/main.cpp">

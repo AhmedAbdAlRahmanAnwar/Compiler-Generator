@@ -11,6 +11,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o"
   "CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o"
   "CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o"
+  "CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.o"
+  "CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.o"
+  "CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.o"
+  "CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o"
+  "CMakeFiles/Compiler_Generator.dir/Row.cpp.o"
   "Compiler_Generator.pdb"
   "Compiler_Generator"
 )

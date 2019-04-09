@@ -213,6 +213,71 @@ CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/ID_Generator.cpp -o CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.s
 
+CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
+CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.o: ../DFAstate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.o -c /home/ahmed/CLionProjects/Compiler-Generator/DFAstate.cpp
+
+CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/Compiler-Generator/DFAstate.cpp > CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.i
+
+CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/DFAstate.cpp -o CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.s
+
+CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
+CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.o: ../DFA_tableCreator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.o -c /home/ahmed/CLionProjects/Compiler-Generator/DFA_tableCreator.cpp
+
+CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/Compiler-Generator/DFA_tableCreator.cpp > CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.i
+
+CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/DFA_tableCreator.cpp -o CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.s
+
+CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
+CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.o: ../SubsetConstruction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.o -c /home/ahmed/CLionProjects/Compiler-Generator/SubsetConstruction.cpp
+
+CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/Compiler-Generator/SubsetConstruction.cpp > CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.i
+
+CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/SubsetConstruction.cpp -o CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.s
+
+CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
+CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o: ../TransitionTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o -c /home/ahmed/CLionProjects/Compiler-Generator/TransitionTable.cpp
+
+CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/Compiler-Generator/TransitionTable.cpp > CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.i
+
+CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/TransitionTable.cpp -o CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.s
+
+CMakeFiles/Compiler_Generator.dir/Row.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
+CMakeFiles/Compiler_Generator.dir/Row.cpp.o: ../Row.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Compiler_Generator.dir/Row.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler_Generator.dir/Row.cpp.o -c /home/ahmed/CLionProjects/Compiler-Generator/Row.cpp
+
+CMakeFiles/Compiler_Generator.dir/Row.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler_Generator.dir/Row.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/CLionProjects/Compiler-Generator/Row.cpp > CMakeFiles/Compiler_Generator.dir/Row.cpp.i
+
+CMakeFiles/Compiler_Generator.dir/Row.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/Row.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/CLionProjects/Compiler-Generator/Row.cpp -o CMakeFiles/Compiler_Generator.dir/Row.cpp.s
+
 # Object files for target Compiler_Generator
 Compiler_Generator_OBJECTS = \
 "CMakeFiles/Compiler_Generator.dir/main.cpp.o" \
@@ -226,7 +291,12 @@ Compiler_Generator_OBJECTS = \
 "CMakeFiles/Compiler_Generator.dir/State.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o" \
-"CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o"
+"CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o" \
+"CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.o" \
+"CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.o" \
+"CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.o" \
+"CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o" \
+"CMakeFiles/Compiler_Generator.dir/Row.cpp.o"
 
 # External object files for target Compiler_Generator
 Compiler_Generator_EXTERNAL_OBJECTS =
@@ -243,9 +313,14 @@ Compiler_Generator: CMakeFiles/Compiler_Generator.dir/State.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o
+Compiler_Generator: CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.o
+Compiler_Generator: CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.o
+Compiler_Generator: CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.o
+Compiler_Generator: CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o
+Compiler_Generator: CMakeFiles/Compiler_Generator.dir/Row.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/build.make
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Compiler_Generator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Compiler_Generator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Compiler_Generator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
