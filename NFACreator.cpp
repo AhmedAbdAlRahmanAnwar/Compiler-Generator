@@ -15,10 +15,20 @@ NFACreator::~NFACreator() {
 }
 
 
+set<char> NFACreator::getAlphabet()
+{
+    return alpha;
+}
+
+void NFACreator::insertAlphabet(char ch)
+{
+    NFACreator::alpha.insert(ch);
+}
+
 BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
 
-    // convert rule to postfix.
-    vector<char> elements = rule.toPostfix();
+    // get rule as postfix.
+    vector<char> elements = rule.getRHS();
     vector<BasicNFA*> stack;
     int counter = 0;
     bool isBackSlashed = false;
@@ -26,21 +36,15 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
 
         if(isBackSlashed){
             char ch = element;
+            // epsilon transition
+            if (ch == 'L'){
+                ch = '\0';
+            }
             stack.push_back(new BasicNFA(ch));
             isBackSlashed = false;
+            insertAlphabet(ch);
         } else if(element == '\\'){
             isBackSlashed = true;
-        }
-
-        //check if the element is Alphabet
-        else if((element>='a'&& element<='z') || (element>='A' && element<='Z'))
-        {
-            char ch = element;
-            // Epsilon
-            if(ch == '@')ch = '\0';
-            stack.push_back(new BasicNFA(ch));
-            counter++;
-            continue;
         }
 
         else if(element == '+')
@@ -68,15 +72,19 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
             stack.pop_back();
 
             char c1 = elements.at(counter-2) ,c2 = elements.at(counter-1);
-
             BasicNFA* result = BN2;
             BasicNFA* temp;
+            insertAlphabet(c1);
+            insertAlphabet(c2);
             for (char c = c1+1; c < c2; ++c) {
+                insertAlphabet(c);
                 temp = new BasicNFA(c);
                 result = OROperator(result,temp);
             }
             stack.push_back(OROperator(result,BN1));
         }
+
+
 
         else if(element.getContent() == '*')
         {
@@ -85,14 +93,20 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
             stack.push_back(KleeneClosureOperator(BN)) ;
         }
 
-        // Concatenation operator will be represented by $
-        else if(element == '$')
+        // Concatenation operator will be represented by &
+        else if(element == '&')
         {
             BasicNFA* BN1 = stack.back();
             stack.pop_back();
             BasicNFA* BN2 = stack.back();
             stack.pop_back();
             stack.push_back(ANDOperator(BN2,BN1));
+        }
+
+        //check if the element is Alphabet
+        else{
+            stack.push_back(new BasicNFA(element));
+            insertAlphabet(element);
         }
         counter++;
     }

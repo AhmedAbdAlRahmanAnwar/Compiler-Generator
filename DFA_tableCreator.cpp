@@ -40,7 +40,7 @@ TransitionTable DFA_tableCreator::generate_dfa_table(void)
             /* add new row */
             table.insert_new_row(curr);
             /* get transitions of this new entry */
-            for (char i : Alpha::getAlphabet()) {
+            for (char i : NFACreator::getAlphabet()) {
                 /* get states reachable by this state(s) when applying char i */
                 DFAstate* to_state = curr->get_transition(i) ;
                 if(!to_state->isNull())
@@ -124,7 +124,7 @@ void DFA_tableCreator::generate_partition_ids(vector<SubsetConstruction> all_par
         /* NEW IDENTIFIER FOR STATE i IN PARTITION */
         string id = "" ;
         /* ALPHABET */
-        set<char> alpha = Alpha::getAlphabet();
+        set<char> alpha = NFACreator::getAlphabet();
         /* APPEND TO STATE ID PARTITION ID */
         for (char i : alpha ){
             /* GET STATE WILL GO TO IF STATE C TOOK I */

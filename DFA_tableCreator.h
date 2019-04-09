@@ -9,6 +9,7 @@
 #include "BasicNFA.h"
 #include "TransitionTable.h"
 #include "DFAstate.h"
+#include "NFACreator.h"
 #include "SubsetConstruction.h"
 #include <algorithm>
 

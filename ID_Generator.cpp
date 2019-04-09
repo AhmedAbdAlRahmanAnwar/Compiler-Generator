@@ -3,7 +3,7 @@
 //
 
 #include "ID_Generator.h"
-
+int ID_Generator::number = 3;
 ID_Generator::ID_Generator()
 {
     // TODO Auto-generated constructor stub
