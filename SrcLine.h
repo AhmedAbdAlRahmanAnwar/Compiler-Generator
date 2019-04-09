@@ -18,16 +18,17 @@ public:
     SrcLine(const int& lineNum, const bool& isComment);
     int* getlineNumber();
     bool* isComment();
+
     void setErrMsg(const string& msg);
     string* getErrMsg();
-    void addToken();
-    void removeToken();
 
+    void addChar(char& c);
+    vector<char>* getCharacters();
 private:
     int lineNum;
     bool isCom;
     string errorMsg;
-    vector<Token> tokens;
+    vector<char> lineCharactres;
 };
 
 

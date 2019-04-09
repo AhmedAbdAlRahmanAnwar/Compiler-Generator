@@ -8,28 +8,27 @@
 
 #include <string>
 #include <bits/unique_ptr.h>
+#include <vector>
 #include "DFA.h"
 
 using namespace std;
 
-struct RegularDef {
-    string LHS;
-    string RHS;
-};
 
 class Rule {
 
 public:
-    Rule (const int& RuleNum,const bool& isRegular);
-    int getRuleNumber();
-    bool isRegularExpr();
-    void setDFA(const DFA& rDFA);
-    virtual unique_ptr<DFA> getDFA();
+    Rule (const string lhs, vector<char> rhs,const int ruleNum);
+    string getLHS();
+    vector<char> getRHS();
+    const int getRuleNumber();
+//    void setDFA(const DFA rDFA);
+//    virtual unique_ptr<DFA> getDFA();
 
 private:
-    const int ruleNumber;
-    const bool isExpr;
-    const DFA ruleDFA;
+    int ruleNumber;
+    string lhs;
+    vector<char> rhs;
+//    unique_ptr<DFA> ruleDFA;
 };
 
 

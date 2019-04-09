@@ -3,3 +3,33 @@
 //
 
 #include "Token.h"
+
+
+void Token::setAttribute(int &a) {
+
+    Token::attribute = &a;
+}
+
+string *Token::getTokenType() {
+    return tokenType;
+}
+
+string *Token::getLexeme() {
+    return lexeme;
+}
+
+int *Token::getAttribute() {
+    return attribute;
+}
+
+int *Token::getColNum() {
+    return colNum;
+}
+
+Token::Token(string &tokenType, string &lexeme,int &colNum) {
+
+    Token:: tokenType = &tokenType;
+    Token::lexeme = &lexeme;
+    Token::colNum = &colNum;
+
+}
