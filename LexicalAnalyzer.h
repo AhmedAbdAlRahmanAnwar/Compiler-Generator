@@ -36,6 +36,7 @@ public:
     unique_ptr<Token> nextToken();
 private:
 
+    vector<char> srcChars;
     vector<Rule> rules;
     vector <struct Regulars> defs;
     vector <struct Regulars> exprs;
@@ -53,8 +54,9 @@ private:
     void prepareRules();
 
     TransitionTable minimizedDFATable;
-
     void buildDFA();
+
+    void processSrcCode();
 };
 
 

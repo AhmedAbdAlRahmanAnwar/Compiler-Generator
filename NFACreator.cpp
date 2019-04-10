@@ -114,6 +114,8 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
 
     stack[0]->get_end()->set_acceptance(true);
     stack[0]->get_end()->set_matched_rule(rule);
+
+    return stack[0];
 }
 
 BasicNFA* NFACreator::PositiveClosureOperator(BasicNFA* BN){

@@ -12,17 +12,17 @@ using namespace std;
 
 class Token {
     public:
-        Token(string& tokenType,string& lexeme, int& colNum);
-        void setAttribute(int& a);
-        string* getTokenType();
-        string* getLexeme();
-        int* getAttribute();
-        int* getColNum();
+        Token(string tokenType, string lexeme);
+        void setAttribute(int a);
+        string getTokenType();
+        string getLexeme();
+        int getAttribute();
+//        int* getColNum();
     private:
-        string* tokenType;
-        string* lexeme;
-        int* attribute;
-        int* colNum;
+        string tokenType;
+        string lexeme;
+        int attribute;
+//        int* colNum;
 };
 
 

@@ -14,16 +14,28 @@ LexicalAnalyzer::LexicalAnalyzer(string rulesFilePath, string srcFilepath) {
 }
 
 void LexicalAnalyzer::analyze() {
+
+    readSrcFile();
+
+    //for testing
+//    for(char c :srcChars)
+//        cout<<  c << endl;
+
+
     readRulesFile();
 
-    for(int i = 0; i < exprs.size(); i++){
-        cout << exprs.at(i).LHS << " = " << exprs.at(i).RHS << endl;
-    }
+    // for testing
+//    for(int i = 0; i < exprs.size(); i++){
+//        cout << exprs.at(i).LHS << " = " << exprs.at(i).RHS << endl;
+//    }
+
     prepareRules();
 
     buildDFA();
 
-    cout << LexicalAnalyzer::minimizedDFATable.non_acceptance_states().size();
+    //for testing
+//    cout << LexicalAnalyzer::minimizedDFATable.non_acceptance_states().size();
+
 
 }
 
@@ -38,9 +50,11 @@ void LexicalAnalyzer::prepareRules() {
         rules.push_back(Rule(exprs.at(i).LHS,temp,i+1));
         temp.clear();
     }
-    for (int i = 0; i < rules.size();++i){
-        cout << rules.at(i).getLHS() << "   " << rules.at(i).getRuleNumber() << endl;
-    }
+
+//    // for testing
+//    for (int i = 0; i < rules.size();++i){
+//        cout << rules.at(i).getLHS() << "   " << rules.at(i).getRuleNumber() << endl;
+//    }
 }
 
 string LexicalAnalyzer::handleRHS(string str) {
@@ -264,9 +278,7 @@ void LexicalAnalyzer::readSrcFile(){
 
     char c;
     int lineNum = 0,colNum = 0;
-    int flag = 0;
-
-    stringstream ss;
+    string temp;
 
     ifstream myfile(sfPath);
     if (myfile.is_open())
@@ -277,11 +289,18 @@ void LexicalAnalyzer::readSrcFile(){
 
             ++lineNum;
 
-            cout << "Line num ";
-            cout << lineNum << endl;
-
             if (line.empty())
                 continue;
+
+            stringstream ss(line);
+
+            while(ss >> temp){
+
+                for(int i = 0 ;i < temp.length() ;++i)
+                    srcChars.push_back(temp.at(i));
+
+                srcChars.push_back(' ');
+            }
         }
         myfile.close();
     }
@@ -410,7 +429,46 @@ void LexicalAnalyzer::buildDFA() {
     NFA nfa; //completeNFA
     BasicNFA * basicNFa = nfa.GenerateCompleteNFA(rules);
     DFA dfa(basicNFa);
-
     LexicalAnalyzer::minimizedDFATable = dfa.get_minimized_dfa_table();
+}
+
+void LexicalAnalyzer::processSrcCode() {
+
+    bool is_accepted;
+    vector<Token> tokens;
+    string lexeme = "";
+    string tokenType;
+    DFAstate * dfAstate;
+    dfAstate = minimizedDFATable.get_start_state();
+    DFAstate prev;
+
+    for(char c : srcChars) {
+        if (c == ' '){
+            tokenType = dfAstate->get_matched_rules().at(0).getLHS();
+            tokens.push_back(Token(tokenType,lexeme));
+            lexeme = "";
+            dfAstate = minimizedDFATable.get_start_state();
+            continue;
+        }
+        prev = *dfAstate;
+        dfAstate = minimizedDFATable.find_transition(dfAstate, c);
+        is_accepted = dfAstate->is_acceptance();
+        if(!is_accepted) {
+            tokenType = prev.get_matched_rules().at(0).getLHS();
+            tokens.push_back(Token(tokenType,lexeme));
+            lexeme = "";
+            dfAstate = minimizedDFATable.get_start_state();
+            dfAstate = minimizedDFATable.find_transition(dfAstate, c);
+            is_accepted = dfAstate->is_acceptance();
+            if (!is_accepted) {
+                cout << "error : the character " << c << " is not accepted!!!" << endl;
+                dfAstate = minimizedDFATable.get_start_state();
+            } else {
+                lexeme = lexeme + c;
+            }
+        } else {
+            lexeme = lexeme + c;
+        }
+    }
 }
 
