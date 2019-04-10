@@ -5,12 +5,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ab_shams/CLionProjects/Compiler Generator/BasicNFA.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o"
-  "/home/ab_shams/CLionProjects/Compiler Generator/CompleteNFA.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o"
   "/home/ab_shams/CLionProjects/Compiler Generator/DFA.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/DFA.cpp.o"
   "/home/ab_shams/CLionProjects/Compiler Generator/DFA_tableCreator.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/DFA_tableCreator.cpp.o"
   "/home/ab_shams/CLionProjects/Compiler Generator/DFAstate.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.o"
   "/home/ab_shams/CLionProjects/Compiler Generator/ID_Generator.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o"
   "/home/ab_shams/CLionProjects/Compiler Generator/LexicalAnalyzer.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o"
+  "/home/ab_shams/CLionProjects/Compiler Generator/NFA.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/NFA.cpp.o"
   "/home/ab_shams/CLionProjects/Compiler Generator/NFACreator.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o"
   "/home/ab_shams/CLionProjects/Compiler Generator/Row.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/Row.cpp.o"
   "/home/ab_shams/CLionProjects/Compiler Generator/Rule.cpp" "/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles/Compiler_Generator.dir/Rule.cpp.o"

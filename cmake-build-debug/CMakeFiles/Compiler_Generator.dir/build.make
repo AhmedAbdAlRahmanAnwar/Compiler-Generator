@@ -177,28 +177,28 @@ CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o.provides: CMakeFiles/Compiler_Ge
 CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o.provides.build: CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o
 
 
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: ../CompleteNFA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o -c "/home/ab_shams/CLionProjects/Compiler Generator/CompleteNFA.cpp"
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: ../NFA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Compiler_Generator.dir/NFA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler_Generator.dir/NFA.cpp.o -c "/home/ab_shams/CLionProjects/Compiler Generator/NFA.cpp"
 
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ab_shams/CLionProjects/Compiler Generator/CompleteNFA.cpp" > CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.i
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler_Generator.dir/NFA.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ab_shams/CLionProjects/Compiler Generator/NFA.cpp" > CMakeFiles/Compiler_Generator.dir/NFA.cpp.i
 
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ab_shams/CLionProjects/Compiler Generator/CompleteNFA.cpp" -o CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.s
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler_Generator.dir/NFA.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ab_shams/CLionProjects/Compiler Generator/NFA.cpp" -o CMakeFiles/Compiler_Generator.dir/NFA.cpp.s
 
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o.requires:
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o.requires:
 
-.PHONY : CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o.requires
+.PHONY : CMakeFiles/Compiler_Generator.dir/NFA.cpp.o.requires
 
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o.provides: CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o.provides.build
-.PHONY : CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o.provides
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o.provides: CMakeFiles/Compiler_Generator.dir/NFA.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/NFA.cpp.o.provides.build
+.PHONY : CMakeFiles/Compiler_Generator.dir/NFA.cpp.o.provides
 
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o.provides.build: CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o.provides.build: CMakeFiles/Compiler_Generator.dir/NFA.cpp.o
 
 
 CMakeFiles/Compiler_Generator.dir/State.cpp.o: CMakeFiles/Compiler_Generator.dir/flags.make
@@ -448,7 +448,7 @@ Compiler_Generator_OBJECTS = \
 "CMakeFiles/Compiler_Generator.dir/Token.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/DFA.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o" \
-"CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o" \
+"CMakeFiles/Compiler_Generator.dir/NFA.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/State.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o" \
 "CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o" \
@@ -468,7 +468,7 @@ Compiler_Generator: CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/Token.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/DFA.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o
-Compiler_Generator: CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o
+Compiler_Generator: CMakeFiles/Compiler_Generator.dir/NFA.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/State.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o
 Compiler_Generator: CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o
@@ -494,7 +494,7 @@ CMakeFiles/Compiler_Generator.dir/requires: CMakeFiles/Compiler_Generator.dir/Le
 CMakeFiles/Compiler_Generator.dir/requires: CMakeFiles/Compiler_Generator.dir/Token.cpp.o.requires
 CMakeFiles/Compiler_Generator.dir/requires: CMakeFiles/Compiler_Generator.dir/DFA.cpp.o.requires
 CMakeFiles/Compiler_Generator.dir/requires: CMakeFiles/Compiler_Generator.dir/SrcLine.cpp.o.requires
-CMakeFiles/Compiler_Generator.dir/requires: CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o.requires
+CMakeFiles/Compiler_Generator.dir/requires: CMakeFiles/Compiler_Generator.dir/NFA.cpp.o.requires
 CMakeFiles/Compiler_Generator.dir/requires: CMakeFiles/Compiler_Generator.dir/State.cpp.o.requires
 CMakeFiles/Compiler_Generator.dir/requires: CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o.requires
 CMakeFiles/Compiler_Generator.dir/requires: CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o.requires

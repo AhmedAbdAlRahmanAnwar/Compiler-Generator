@@ -150,33 +150,6 @@ BasicNFA.cpp.s:
 	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.s
 .PHONY : BasicNFA.cpp.s
 
-CompleteNFA.o: CompleteNFA.cpp.o
-
-.PHONY : CompleteNFA.o
-
-# target to build an object file
-CompleteNFA.cpp.o:
-	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o
-.PHONY : CompleteNFA.cpp.o
-
-CompleteNFA.i: CompleteNFA.cpp.i
-
-.PHONY : CompleteNFA.i
-
-# target to preprocess a source file
-CompleteNFA.cpp.i:
-	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.i
-.PHONY : CompleteNFA.cpp.i
-
-CompleteNFA.s: CompleteNFA.cpp.s
-
-.PHONY : CompleteNFA.s
-
-# target to generate assembly for a file
-CompleteNFA.cpp.s:
-	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.s
-.PHONY : CompleteNFA.cpp.s
-
 DFA.o: DFA.cpp.o
 
 .PHONY : DFA.o
@@ -311,6 +284,33 @@ LexicalAnalyzer.s: LexicalAnalyzer.cpp.s
 LexicalAnalyzer.cpp.s:
 	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.s
 .PHONY : LexicalAnalyzer.cpp.s
+
+NFA.o: NFA.cpp.o
+
+.PHONY : NFA.o
+
+# target to build an object file
+NFA.cpp.o:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/NFA.cpp.o
+.PHONY : NFA.cpp.o
+
+NFA.i: NFA.cpp.i
+
+.PHONY : NFA.i
+
+# target to preprocess a source file
+NFA.cpp.i:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/NFA.cpp.i
+.PHONY : NFA.cpp.i
+
+NFA.s: NFA.cpp.s
+
+.PHONY : NFA.s
+
+# target to generate assembly for a file
+NFA.cpp.s:
+	$(MAKE) -f CMakeFiles/Compiler_Generator.dir/build.make CMakeFiles/Compiler_Generator.dir/NFA.cpp.s
+.PHONY : NFA.cpp.s
 
 NFACreator.o: NFACreator.cpp.o
 
@@ -567,9 +567,6 @@ help:
 	@echo "... BasicNFA.o"
 	@echo "... BasicNFA.i"
 	@echo "... BasicNFA.s"
-	@echo "... CompleteNFA.o"
-	@echo "... CompleteNFA.i"
-	@echo "... CompleteNFA.s"
 	@echo "... DFA.o"
 	@echo "... DFA.i"
 	@echo "... DFA.s"
@@ -585,6 +582,9 @@ help:
 	@echo "... LexicalAnalyzer.o"
 	@echo "... LexicalAnalyzer.i"
 	@echo "... LexicalAnalyzer.s"
+	@echo "... NFA.o"
+	@echo "... NFA.i"
+	@echo "... NFA.s"
 	@echo "... NFACreator.o"
 	@echo "... NFACreator.i"
 	@echo "... NFACreator.s"

@@ -10,6 +10,10 @@
 #include <bits/unique_ptr.h>
 #include "Token.h"
 #include "Rule.h"
+#include "TransitionTable.h"
+#include "NFACreator.h"
+#include "NFA.h"
+#include "DFA.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -47,6 +51,10 @@ private:
     void readRulesFile();
     void readSrcFile();
     void prepareRules();
+
+    TransitionTable minimizedDFATable;
+
+    void buildDFA();
 };
 
 

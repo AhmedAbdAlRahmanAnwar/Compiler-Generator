@@ -5,6 +5,7 @@
 
 #include "LexicalAnalyzer.h"
 
+
 LexicalAnalyzer::LexicalAnalyzer(string rulesFilePath, string srcFilepath) {
 
     rfPath = rulesFilePath;
@@ -20,11 +21,9 @@ void LexicalAnalyzer::analyze() {
     }
     prepareRules();
 
+    buildDFA();
 
-    //call el function bta3t anwar w eb3at feha parameters lhs & rhs
-    for (Rule r : rules){
-
-    }
+    cout << LexicalAnalyzer::minimizedDFATable.non_acceptance_states().size();
 
 }
 
@@ -404,5 +403,14 @@ string LexicalAnalyzer::SubDefIntoExpr(string str) {
         str2 = str2 + searchForDef(temp) + " ";
     }
     return str2;
+}
+
+void LexicalAnalyzer::buildDFA() {
+
+    NFA nfa; //completeNFA
+    BasicNFA * basicNFa = nfa.GenerateCompleteNFA(rules);
+    DFA dfa(basicNFa);
+
+    LexicalAnalyzer::minimizedDFATable = dfa.get_minimized_dfa_table();
 }
 

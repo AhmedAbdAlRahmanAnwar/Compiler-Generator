@@ -7,14 +7,6 @@ CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o: ../ID_Generator.h
 CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o: ../Rule.h
 CMakeFiles/Compiler_Generator.dir/BasicNFA.cpp.o: ../State.h
 
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: ../BasicNFA.h
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: ../CompleteNFA.cpp
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: ../CompleteNFA.h
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: ../ID_Generator.h
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: ../NFACreator.h
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: ../Rule.h
-CMakeFiles/Compiler_Generator.dir/CompleteNFA.cpp.o: ../State.h
-
 CMakeFiles/Compiler_Generator.dir/DFA.cpp.o: ../BasicNFA.h
 CMakeFiles/Compiler_Generator.dir/DFA.cpp.o: ../DFA.cpp
 CMakeFiles/Compiler_Generator.dir/DFA.cpp.o: ../DFA.h
@@ -49,10 +41,29 @@ CMakeFiles/Compiler_Generator.dir/DFAstate.cpp.o: ../State.h
 CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o: ../ID_Generator.cpp
 CMakeFiles/Compiler_Generator.dir/ID_Generator.cpp.o: ../ID_Generator.h
 
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../BasicNFA.h
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../DFA.h
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../DFA_tableCreator.h
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../DFAstate.h
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../ID_Generator.h
 CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../LexicalAnalyzer.cpp
 CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../LexicalAnalyzer.h
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../NFA.h
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../NFACreator.h
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../Row.h
 CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../Rule.h
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../State.h
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../SubsetConstruction.h
 CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../Token.h
+CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o: ../TransitionTable.h
+
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: ../BasicNFA.h
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: ../ID_Generator.h
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: ../NFA.cpp
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: ../NFA.h
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: ../NFACreator.h
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: ../Rule.h
+CMakeFiles/Compiler_Generator.dir/NFA.cpp.o: ../State.h
 
 CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o: ../BasicNFA.h
 CMakeFiles/Compiler_Generator.dir/NFACreator.cpp.o: ../ID_Generator.h
@@ -100,8 +111,19 @@ CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o: ../SubsetConstruction.h
 CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o: ../TransitionTable.cpp
 CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o: ../TransitionTable.h
 
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../BasicNFA.h
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../DFA.h
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../DFA_tableCreator.h
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../DFAstate.h
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../ID_Generator.h
 CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../LexicalAnalyzer.h
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../NFA.h
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../NFACreator.h
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../Row.h
 CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../Rule.h
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../State.h
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../SubsetConstruction.h
 CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../Token.h
+CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../TransitionTable.h
 CMakeFiles/Compiler_Generator.dir/main.cpp.o: ../main.cpp
 

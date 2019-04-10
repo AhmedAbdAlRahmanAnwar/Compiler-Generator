@@ -2,7 +2,7 @@
 // Created by ab_shams on 20/03/19.
 //
 
-#include "CompleteNFA.h"
+#include "NFA.h"
 
 NFA::NFA() {
     // TODO Auto-generated constructor stub
