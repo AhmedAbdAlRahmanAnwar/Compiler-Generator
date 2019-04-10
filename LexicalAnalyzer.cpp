@@ -260,7 +260,9 @@ string LexicalAnalyzer::InfixToPostfix(string str) {
 }
 
 void LexicalAnalyzer::readSrcFile(){
+
     string line;
+
     char c;
     int lineNum = 0,colNum = 0;
     int flag = 0;
@@ -281,48 +283,6 @@ void LexicalAnalyzer::readSrcFile(){
 
             if (line.empty())
                 continue;
-
-            stringstream ss(line);
-
-            while (ss >> c) {
-
-//                ss >> c;
-
-                if(c == '*' && flag == 2){
-                    if (ss >> c){
-//                        ss >> c;
-                        if (c == '/' ){
-                            if (ss >> c){
-//                                ss >> c;
-                            }
-                            flag = 0;
-                            continue;
-                        }
-                    }
-                }
-
-                else if (c == '/' && flag != 2) {
-                    if (ss >> c) {
-//                        ss >> c;
-                        if (c == '/') {
-                            flag = 1;
-                            break;
-                        }
-                        else if (c == '*'){
-                            flag = 2;
-                            continue;
-                        }
-                        cout << '/' << endl; //else
-
-                    }
-                }
-                if (flag != 2)
-                    cout << c << endl;
-            }
-            if (flag != 0)
-                continue;
-
-            flag = 0;
         }
         myfile.close();
     }

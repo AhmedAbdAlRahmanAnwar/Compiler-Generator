@@ -13,13 +13,16 @@
 #include <set>
 
 
+using namespace std;
+
+
 class NFACreator {
 public:
     NFACreator();
     virtual ~NFACreator();
 
-    static set<char> getAlphabet();
-    static void insertAlphabet(char ch);
+    set<char> getAlphabet();
+    void insertAlphabet(char ch);
     static BasicNFA* build_BasicNFA(Rule rule);
     static BasicNFA* PositiveClosureOperator(BasicNFA* BN);
     static BasicNFA* OROperator(BasicNFA* BN1, BasicNFA* BN2);
@@ -27,7 +30,7 @@ public:
     static BasicNFA* ANDOperator(BasicNFA* BN1, BasicNFA* BN2);
 
 private :
-    static set<char> alpha;
+    set<char> alpha;
 };
 
 

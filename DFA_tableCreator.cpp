@@ -24,6 +24,7 @@ TransitionTable DFA_tableCreator::generate_dfa_table(void)
 {
     queue<DFAstate*> q;
     TransitionTable table = TransitionTable();
+    NFACreator nfaCreator;
 
     /* get table first entry */
     DFAstate* start_state = new DFAstate();
@@ -40,7 +41,7 @@ TransitionTable DFA_tableCreator::generate_dfa_table(void)
             /* add new row */
             table.insert_new_row(curr);
             /* get transitions of this new entry */
-            for (char i : NFACreator::getAlphabet()) {
+            for (char i : nfaCreator.getAlphabet()) {
                 /* get states reachable by this state(s) when applying char i */
                 DFAstate* to_state = curr->get_transition(i) ;
                 if(!to_state->isNull())
@@ -109,7 +110,7 @@ SubsetConstruction DFA_tableCreator::get_partition_belong(vector<SubsetConstruct
         if(s.containState(c))
             return s ;
     }
-    return NULL;
+//    return NULL;
 }
 
 
@@ -119,12 +120,12 @@ void DFA_tableCreator::generate_partition_ids(vector<SubsetConstruction> all_par
     vector<DFAstate*> states = partition -> get_states() ;
     /* NEW IDENTIFIERS FOR PARTITION STATES */
     vector<string> ids ;
-
+    NFACreator nfaCreator;
     for(DFAstate* c : states){
         /* NEW IDENTIFIER FOR STATE i IN PARTITION */
         string id = "" ;
         /* ALPHABET */
-        set<char> alpha = NFACreator::getAlphabet();
+        set<char> alpha = nfaCreator.getAlphabet();
         /* APPEND TO STATE ID PARTITION ID */
         for (char i : alpha ){
             /* GET STATE WILL GO TO IF STATE C TOOK I */

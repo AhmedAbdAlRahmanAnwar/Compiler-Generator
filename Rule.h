@@ -1,23 +1,23 @@
 //
-// Created by ab_shams on 20/03/19.
+// Created by ab_shams on 10/04/19.
 //
 
 #ifndef COMPILER_GENERATOR_RULE_H
 #define COMPILER_GENERATOR_RULE_H
 
-
 #include <string>
-#include <bits/unique_ptr.h>
 #include <vector>
-#include "DFA.h"
 
 using namespace std;
 
-
 class Rule {
 
+
 public:
-    Rule (const string lhs, vector<char> rhs,const int ruleNum);
+    Rule (string lhs, vector<char> rhs, int ruleNum);
+
+    Rule();
+
     string getLHS();
     vector<char> getRHS();
     const int getRuleNumber();
@@ -30,6 +30,5 @@ private:
     vector<char> rhs;
 //    unique_ptr<DFA> ruleDFA;
 };
-
 
 #endif //COMPILER_GENERATOR_RULE_H

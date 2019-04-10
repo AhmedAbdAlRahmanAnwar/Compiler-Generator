@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug"/>
+				<Option working_dir="/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug"/>
+				<Option working_dir="/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug"/>
+				<Option working_dir="/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Compiler_Generator">
-				<Option output="/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Compiler_Generator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug"/>
+				<Option output="/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/Compiler_Generator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 Compiler_Generator"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 Compiler_Generator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Compiler_Generator/fast">
-				<Option output="/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Compiler_Generator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug"/>
+				<Option output="/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug/Compiler_Generator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ab_shams/CLionProjects/Compiler Generator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,113 +77,107 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 Compiler_Generator/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ahmed/CLionProjects/Compiler-Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 Compiler_Generator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ab_shams/CLionProjects/Compiler\ Generator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/BasicNFA.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/BasicNFA.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/BasicNFA.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/BasicNFA.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/CompleteNFA.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/CompleteNFA.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/CompleteNFA.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/CompleteNFA.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFA.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/DFA.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFA.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/DFA.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFA_tableCreator.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/DFA_tableCreator.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFA_tableCreator.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/DFA_tableCreator.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFAstate.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/DFAstate.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/DFAstate.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/DFAstate.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/ID_Generator.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/ID_Generator.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/ID_Generator.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/ID_Generator.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/LexicalAnalyzer.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/LexicalAnalyzer.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/LexicalAnalyzer.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/LexicalAnalyzer.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/NFACreator.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/NFACreator.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/NFACreator.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/NFACreator.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Parser.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/Row.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Parser.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/Row.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Row.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/Rule.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Row.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/Rule.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Rule.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/SrcLine.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Rule.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/SrcLine.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/SrcLine.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/State.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/SrcLine.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/State.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/State.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/SubsetConstruction.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/State.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/SubsetConstruction.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/SubsetConstruction.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/Token.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/SubsetConstruction.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/Token.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Token.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/TransitionTable.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/Token.h">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/TransitionTable.h">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/TransitionTable.cpp">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/main.cpp">
 			<Option target="Compiler_Generator"/>
 		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/TransitionTable.h">
-			<Option target="Compiler_Generator"/>
-		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/main.cpp">
-			<Option target="Compiler_Generator"/>
-		</Unit>
-		<Unit filename="/home/ahmed/CLionProjects/Compiler-Generator/CMakeLists.txt">
+		<Unit filename="/home/ab_shams/CLionProjects/Compiler Generator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

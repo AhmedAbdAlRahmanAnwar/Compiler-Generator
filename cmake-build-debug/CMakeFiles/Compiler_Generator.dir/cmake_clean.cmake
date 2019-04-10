@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Compiler_Generator.dir/main.cpp.o"
-  "CMakeFiles/Compiler_Generator.dir/Parser.cpp.o"
-  "CMakeFiles/Compiler_Generator.dir/Rule.cpp.o"
   "CMakeFiles/Compiler_Generator.dir/LexicalAnalyzer.cpp.o"
   "CMakeFiles/Compiler_Generator.dir/Token.cpp.o"
   "CMakeFiles/Compiler_Generator.dir/DFA.cpp.o"
@@ -16,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Compiler_Generator.dir/SubsetConstruction.cpp.o"
   "CMakeFiles/Compiler_Generator.dir/TransitionTable.cpp.o"
   "CMakeFiles/Compiler_Generator.dir/Row.cpp.o"
+  "CMakeFiles/Compiler_Generator.dir/Rule.cpp.o"
   "Compiler_Generator.pdb"
   "Compiler_Generator"
 )

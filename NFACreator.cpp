@@ -22,7 +22,7 @@ set<char> NFACreator::getAlphabet()
 
 void NFACreator::insertAlphabet(char ch)
 {
-    NFACreator::alpha.insert(ch);
+    alpha.insert(ch);
 }
 
 BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
@@ -32,6 +32,7 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
     vector<BasicNFA*> stack;
     int counter = 0;
     bool isBackSlashed = false;
+    NFACreator nfaCreator;
     for (char element : elements) {
 
         if(isBackSlashed){
@@ -42,7 +43,7 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
             }
             stack.push_back(new BasicNFA(ch));
             isBackSlashed = false;
-            insertAlphabet(ch);
+            nfaCreator.insertAlphabet(ch);
         } else if(element == '\\'){
             isBackSlashed = true;
         }
@@ -74,10 +75,10 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
             char c1 = elements.at(counter-2) ,c2 = elements.at(counter-1);
             BasicNFA* result = BN2;
             BasicNFA* temp;
-            insertAlphabet(c1);
-            insertAlphabet(c2);
+            nfaCreator.insertAlphabet(c1);
+            nfaCreator.insertAlphabet(c2);
             for (char c = c1+1; c < c2; ++c) {
-                insertAlphabet(c);
+                nfaCreator.insertAlphabet(c);
                 temp = new BasicNFA(c);
                 result = OROperator(result,temp);
             }
@@ -86,7 +87,7 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
 
 
 
-        else if(element.getContent() == '*')
+        else if(element == '*')
         {
             BasicNFA* BN = stack.back();
             stack.pop_back();
@@ -106,7 +107,7 @@ BasicNFA* NFACreator::build_BasicNFA(Rule rule) {
         //check if the element is Alphabet
         else{
             stack.push_back(new BasicNFA(element));
-            insertAlphabet(element);
+            nfaCreator.insertAlphabet(element);
         }
         counter++;
     }

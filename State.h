@@ -27,7 +27,7 @@ public:
     bool is_acceptance();
 
     void set_matched_rule(Rule matched_rule);
-    Rule get_matched_rule(void);
+    Rule get_matched_rule();
 
     map<char, vector<State*> > getAllTransitions();
     int get_id();
@@ -35,7 +35,7 @@ public:
 private:
     map<char, vector<State*> > transitions;
     bool acceptance_state;
-    Rule matched_rule = Rule(,);
+    Rule matched_rule;
     int id;
 };
 

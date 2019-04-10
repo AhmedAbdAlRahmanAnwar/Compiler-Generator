@@ -98,6 +98,7 @@ void TransitionTable::insert_new_row(Row* r)
 TransitionTable TransitionTable::finalDFA_table(vector<SubsetConstruction> partitions)
 {
     TransitionTable finaltable ;
+    NFACreator nfaCreator;
 
     for(Row* r : TransitionTableRows){
         DFAstate* essential_state = get_partition_belong(partitions , r->get_id_state()).get_states()[0] ;
@@ -105,7 +106,7 @@ TransitionTable TransitionTable::finalDFA_table(vector<SubsetConstruction> parti
         if(!(*(r->get_id_state()) == (*essential_state)))
             continue ;
         /* REPLACE ALL STATES IN ROW WITH THIER ESSENTIAL STATES */
-        for(char c : Alpha::getAlphabet()){
+        for(char c : nfaCreator.getAlphabet()){
             DFAstate* to = &((r->get_transitions())[c]);
             /* STATE TO NOT FOUND */
             if(to->get_states().empty())
@@ -129,7 +130,7 @@ SubsetConstruction TransitionTable::get_partition_belong(vector<SubsetConstructi
         if(s.containState(c))
             return s ;
     }
-    return NULL;
+//    return NULL;
 }
 
 DFAstate* TransitionTable::find_transition(DFAstate* from_state, char input)
@@ -141,5 +142,5 @@ DFAstate* TransitionTable::find_transition(DFAstate* from_state, char input)
             return r->get_destination_state(input);
         }
     }
-    return NULL;
+//    return NULL;
 }

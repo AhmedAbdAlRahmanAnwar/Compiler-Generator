@@ -1,7 +1,8 @@
 //
-// Created by ab_shams on 20/03/19.
+// Created by ab_shams on 10/04/19.
 //
 
+#include <utility>
 #include "Rule.h"
 
 vector<char> Rule::getRHS() {
@@ -12,13 +13,15 @@ string Rule::getLHS() {
     return lhs;
 }
 
-Rule::Rule(const string lhs, const vector<char> rhs, const int ruleNum) {
+Rule::Rule(string lhs,vector<char> rhs, int ruleNum) {
 
-    Rule::lhs = lhs;
-    Rule::rhs = rhs;
+    Rule::lhs = std::move(lhs);
+    Rule::rhs = std::move(rhs);
     Rule::ruleNumber = ruleNum;
 }
 
 const int Rule::getRuleNumber() {
     return ruleNumber;
 }
+
+Rule::Rule() {}

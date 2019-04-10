@@ -11,6 +11,7 @@
 #include "DFAstate.h"
 #include "Row.h"
 #include "SubsetConstruction.h"
+#include "NFACreator.h"
 
 using namespace std;
 
